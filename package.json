@@ -1,0 +1,29 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~4.2.0"
+  },
+  "fitbit": {
+    "appUUID": "cc57c6b6-9775-4d03-8a8f-01cd4a35caaf",
+    "appType": "app",
+    "appDisplayName": "GabJSONTest",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#607d8b",
+    "requestedPermissions": [
+      "access_heart_rate",
+      "access_activity",
+      "access_internet",
+      "run_background",
+      "access_exercise",
+      "access_sleep"
+    ],
+    "buildTargets": [
+      "higgs"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "GabJSONTest"
+      }
+    },
+    "defaultLanguage": "en-US"
+  }
+}
